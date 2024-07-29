@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                    ),
                   ),
-                  Text("Profile Images"),
+                  Text("Profile"),
                   Spacer(),
                   IconButton(onPressed: () {}, icon: Icon(Icons.more_vert),)
                 ],
