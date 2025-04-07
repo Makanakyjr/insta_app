@@ -9,6 +9,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List <String> profileImages = [
+    "images/ahm1.jpg",
+    "images/liz3.jpg",
+    "images/ahm.jpg",
+    "images/liz3.jpg",
+    "images/liz2.jpg",
+    "images/liz.jpg",
     "images/naky.jpg",
     "images/lizzy5.jpg",
     "images/lizahm.jpg",
@@ -19,6 +25,12 @@ class _HomePageState extends State<HomePage> {
     "images/lizzy2.jpg",
   ];
   List <String> posts = [
+    "images/lizz.jpg",
+    "images/ahm1.jpg",
+    "images/liz3.jpg",
+    "images/liz2.jpg",
+    "images/ahm.jpg",
+    "images/liz.jpg",
      "images/lizzy2.jpg",
     "images/naky3.jpg",
     "images/naky2.jpg",
