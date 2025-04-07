@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 CircleAvatar(
                   radius: 35,
-                  backgroundImage: AssetImage("images/plain.jpg"),
+                  backgroundImage: const AssetImage("images/plain.jpg"),
                   child: CircleAvatar(
                     radius: 32,
                      backgroundImage: AssetImage(profileImages[index]),
@@ -70,25 +70,25 @@ class _HomePageState extends State<HomePage> {
             ),
           ),),),
           ),
-          Divider(),
+          const Divider(),
           Column(
             children: List.generate(8, (index) => Column(
               children: [
                 Row(children: [
                   Container(
-                    padding: EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10),
                     child: CircleAvatar(
                   radius: 20,
-                  backgroundImage: AssetImage("images/plain.jpg"),
+                  backgroundImage: const AssetImage("images/plain.jpg"),
                   child: CircleAvatar(
                     radius: 18,
                      backgroundImage: AssetImage(profileImages[index]),
                   ),
                    ),
                   ),
-                  Text("Profile"),
-                  Spacer(),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.more_vert),)
+                  const Text("Profile"),
+                  const Spacer(),
+                  IconButton(onPressed: () {}, icon: const Icon(Icons.more_vert),)
                 ],
                   
                 ),
