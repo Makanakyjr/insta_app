@@ -21,8 +21,8 @@ class _HomePageState extends State<HomePage> {
     "images/ahmed.jpg",
     "images/naky3.jpg",
     "images/eagle.jpg",
-    "images/lizzy.jpg",
     "images/lizzy2.jpg",
+    "images/lizzy.jpg",
   ];
   List <String> posts = [
     "images/lizz.jpg",
